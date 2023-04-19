@@ -1,4 +1,4 @@
-package com.example.tuteve
+package com.example.TvShowApp
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

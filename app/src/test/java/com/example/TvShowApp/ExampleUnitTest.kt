@@ -1,4 +1,4 @@
-package com.example.tuteve
+package com.example.TvShowApp
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.tuteve.adapters
+package com.example.TvShowApp.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.tuteve.R
-import com.example.tuteve.models.TVShowSummary
+import com.example.TvShowApp.R
+import com.example.TvShowApp.models.TVShowSummary
 import com.squareup.picasso.Picasso
 
 class TvShowListAdapter(val items : List<TVShowSummary>): RecyclerView.Adapter<TvShowListAdapter.ViewHolder>() {

@@ -1,4 +1,4 @@
-package com.example.tuteve.models
+package com.example.TvShowApp.models
 
 import com.google.gson.annotations.SerializedName
 

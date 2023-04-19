@@ -1,6 +1,6 @@
-package com.example.tuteve.network
+package com.example.TvShowApp.network
 
-import com.example.tuteve.models.TVShowResponse
+import com.example.TvShowApp.models.TVShowResponse
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
@@ -13,6 +13,9 @@ interface EpisodeDateService{
 //     most-popular?page=:page  = esto basicamente
     @GET("most-popular")
     suspend fun getTvShows(@Query("page") page: Int) : TVShowResponse
+
+    @GET("search")
+    suspend fun searchTvShows(@Query("q")query: String, @Query("page") page:Int):TVShowResponse
 
 }
 

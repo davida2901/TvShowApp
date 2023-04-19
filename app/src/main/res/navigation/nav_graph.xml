@@ -7,11 +7,11 @@
 
     <activity
         android:id="@+id/mainActivity"
-        android:name="com.example.tuteve.MainActivity"
+        android:name="com.example.TvShowApp.MainActivity"
         android:label="MainActivity" />
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.example.tuteve.fragments.DetailFragment"
+        android:name="com.example.TvShowApp.fragments.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" />
 </navigation>

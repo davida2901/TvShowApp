@@ -1,11 +1,11 @@
-package com.example.tuteve.fragments
+package com.example.TvShowApp.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.tuteve.R
+import com.example.TvShowApp.R
 
 
 class DetailFragment : Fragment() {

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.tuteve'
+    namespace 'com.example.TvShowApp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.tuteve"
+        applicationId "com.example.TvShowApp"
         minSdk 24
         targetSdk 33
         versionCode 1
